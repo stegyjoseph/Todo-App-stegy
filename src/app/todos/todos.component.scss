@@ -1,0 +1,33 @@
+.heading-section {
+    background: linear-gradient(to right, rgb(1, 255, 234), rgb(40, 235, 241), rgb(27, 132, 230), rgb(148, 8, 230), rgb(186, 67, 241));
+
+    padding: 100px;
+    padding-bottom: 150px;
+
+    h1.title {
+        font-weight: bold;
+        color: rgb(245, 243, 243);
+        text-shadow: 0px 1px 2px rgba(rgb(196, 156, 156), 0.12);
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+.container {
+    max-width: 800px;
+}
+
+.add-todo-box-container {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.add-todo-box {
+    padding: 25px;
+    background: white;
+    
+    border-radius: 4px;
+    margin-top: -68px;
+
+    box-shadow: 0 4px 12px rgba(black, 0.08);
+}
